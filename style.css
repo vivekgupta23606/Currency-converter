@@ -1,0 +1,74 @@
+body{
+    background-color: blueviolet;
+    min-height: 93vh;
+    background-image:url("https://blog.apilayer.com/wp-content/uploads/2022/12/traxer-4PljbcYIzyE-unsplash-1140x694.jpg");
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.container{
+    height:73vh ;
+    width: 90vh;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: #858278;
+    opacity: 85%;
+    border-radius:12vh ;
+}
+h2{
+    text-align: center;
+    color: rgb(28, 27, 27);
+    font-size: 7vh;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-evenly;
+}
+form select
+ {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 0.75rem;
+}
+i{
+    color: aliceblue;
+    font-size: 6vh;
+    padding-top: 8vh;
+}
+.amount{
+    margin-top: 6vh;
+}
+#amount-heading{
+    color: rgb(50, 104, 180);
+    font-weight: bolder;
+    font-size: 3vh;
+    margin-left: 4vh;
+}
+input{
+    width: 80vh;
+   border: 2px solid rgb(20, 17, 17);
+   margin-left: 4vh;
+   border-radius: 15vh;
+   height: 5vh;
+}
+.msg{
+    padding-top: 5vh;
+    font-weight: bolder;
+    font-size: 2.8vh;
+    margin-left: 4vh;
+}
+button{
+    height: 5vh;
+    background-color: blueviolet;
+    color: #1e1d1c;
+    text-align: center;
+    position: relative;
+    font-weight: bolder;
+    font-size: 3vh;
+}
+button{
+    width: 70%;
+    margin-left: 15%;
+}
